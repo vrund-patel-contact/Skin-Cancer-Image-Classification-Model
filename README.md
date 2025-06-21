@@ -6,14 +6,14 @@ utilized and modified a EfficientNetB5 Convolutional Neural Network that can acc
 
 In order to analyze all of the model's results, we can check other values as well. The model displayed the following results:
 
-<list> Precision (Macro Average): 93.00%
-<list> Recall (Macro Average): 93.00%
-<list> F1-score (Macro Average): 93.00%
+- Precision (Macro Average): 93.00%
+- Recall (Macro Average): 93.00%
+- F1-score (Macro Average): 93.00%
 
 ![Image](https://github.com/user-attachments/assets/3bd846ba-03f9-43fc-830b-85c64bd8b28a)
 
 The confusion matrix specifies that:
-<list> 950 images were benign and the model correctly identified them as benign (true-negative).
-<list> 50 images were benign but the model identified them as malignant (false-positive).
-<list> 92 images were malignant but the model identified them as benign (false-negative).
-<list> 908 images were malignant and the model correctly identified them as malignant (true-positive).
+- 950 images were benign and the model correctly identified them as benign (true-negative).
+- 50 images were benign but the model identified them as malignant (false-positive).
+- 92 images were malignant but the model identified them as benign (false-negative).
+- 908 images were malignant and the model correctly identified them as malignant (true-positive).
