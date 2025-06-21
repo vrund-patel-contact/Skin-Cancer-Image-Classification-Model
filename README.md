@@ -1,8 +1,19 @@
 # Skin-Cancer-Image-Classification-Model
 
-utilized and modified a EfficientNetB5 Convolutional Neural Network that can accurately identify whether an image is deemed malignant or benign at an accuracy of 91.20%. The accuracy of 91.20% is achieved after 15 epochs. If the number of epochs are modified (ex. from 15 epochs to 40 or 50 epochs), the accuracy of the final model can be much greater than 91.20 percent.
+utilized and modified a EfficientNetB5 Convolutional Neural Network that can accurately identify whether an image is deemed malignant or benign. The model had an accuracy of 92.90%. In addition, the model also had a test loss of 17.43%.
+
+![Image](https://github.com/user-attachments/assets/3178ee6e-1555-433f-a23c-2d68c7107f48)
+
+In order to analyze all of the model's results, we can check other values as well. The model displayed the following results:
+
+<list> Precision (Macro Average): 93.00%
+<list> Recall (Macro Average): 93.00%
+<list> F1-score (Macro Average): 93.00%
 
 ![Image](https://github.com/user-attachments/assets/3bd846ba-03f9-43fc-830b-85c64bd8b28a)
 
-
-![Image](https://github.com/user-attachments/assets/3178ee6e-1555-433f-a23c-2d68c7107f48)
+The confusion matrix specifies that:
+<list> 950 images were benign and the model correctly identified them as benign (true-negative).
+<list> 50 images were benign but the model identified them as malignant (false-positive).
+<list> 92 images were malignant but the model identified them as benign (false-negative).
+<list> 908 images were malignant and the model correctly identified them as malignant (true-positive).
