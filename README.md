@@ -1,6 +1,9 @@
 # Skin-Cancer-Image-Classification-Model
 
-utilized and modified a EfficientNetB5 Convolutional Neural Network that can accurately identify whether an image is deemed malignant or benign. The model had an accuracy of 92.90%. In addition, the model also had a test loss of 17.43%.
+utilized and modified a EfficientNetB5 Convolutional Neural Network that can accurately identify whether an image is malignant or benign. 
+
+- The model has an accuracy of 92.90%.
+- The model has a test loss of 17.43%.
 
 ![Image](https://github.com/user-attachments/assets/3178ee6e-1555-433f-a23c-2d68c7107f48)
 
